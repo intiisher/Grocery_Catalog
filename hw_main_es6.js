@@ -16,7 +16,7 @@ class UI {
             `<th scope = "row "> ${ name }  </th>  
             <td>$ ${ price } </td>  
             <td input type='hidden' data-id= ${id} >  
-            <td> <a><i id='delete' class="fa fa-trash-o fa-lg"></i>Delete</a> </td>`;
+            <td> <a><i id='delete' class="fa fa-trash"></i>Delete</a> </td>`;
 
         document.querySelector('#product-list').appendChild(newTr);
     }
