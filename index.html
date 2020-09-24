@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Groceries</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="prf_css.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="bg-img">
+        <div class="container">
+<h1> </h1>
+<h1> </h1>
+            <h1 style="text-decoration: underline; text-align:center; color: white ">Groceries</h1>
+            <input type="text" name="filter" id="filterInput" class="form-control m" placeholder="Search for a product.">
+            <table class="table table-dark " id='product-list'>
+                <thead>
+                    <tr>
+                        <th scope="col">Product Name</th>
+                        <th scope="col">Product Price</th>
+                    </tr>
+                </thead>
+                <!-- <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody> -->
+            </table>
+
+
+            <form>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" id='prd' placeholder="Product Name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" id='prc' placeholder="Product Price">
+                    </div>
+                </div>
+
+                <button type="submit " class="btn btn-primary ">Add New Grocery</button>
+
+            </form>
+
+            <!--[if lt IE 7]>
+            <p class="browsehappy ">You are using an <strong>outdated</strong> browser. Please <a href="# ">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        </div>
+    </div>
+
+    <script src="hw_main_es6.js " async defer></script>
+</body>
+
+</html>

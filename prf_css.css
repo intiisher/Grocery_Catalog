@@ -1,0 +1,36 @@
+    body,
+    html {
+        height: 100%;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .bg-img {
+        /* The image used */
+        background-image: url("grocery.jpg");
+        /* Control the height of the image */
+        min-height: 800px;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    /* Add styles to the form container */
+    
+    .container {
+        text-align: center;
+        right: 50px;
+        left: 50px;
+        margin: 20px;
+        max-width: auto;
+        padding: 16px;
+        /* background-color: white; */
+    }
+    
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
